@@ -13,27 +13,30 @@ EduAR-Deep est une application éducative révolutionnaire qui combine les techn
 EduAR-Deep/
 │
 ├── app/
-│ ├── init.py
-│ ├── controllers/
-│ │ ├── init.py
-│ │ └── main_controller.py
-│ ├── models/
-│ │ ├── init.py
-│ │ └── image_model.py
-│ ├── static/
-│ │ ├── css/
-│ │ │ └── styles.css
-│ │ └── js/
-│ │ └── main.js
-│ ├── templates/
-│ │ └── index.html
-│ └── database.db
-├── config.py
+│   ├── __init__.py
+│   ├── config/
+│   │   ├── __init__.py
+│   │   └── config.py
+│   ├── controllers/
+│   │   ├── __init__.py
+│   │   └── main_controller.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── image_model.py
+│   ├── schema/
+│   │   ├── __init__.py
+│   │   └── create_db.py
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── styles.css
+│   │   └── js/
+│   │       └── main.js
+│   ├── templates/
+│   │   └── index.html
+│   └── database.db
+├── .env
 ├── run.py
 ├── requirements.txt
-├── README.md
-├── LICENSE
-└── .gitignore
 ```
 
 ## Installation
